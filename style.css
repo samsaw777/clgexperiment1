@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainDiv {
+  width: 100%;
+}
+
+.headingImage {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.headingImage > img {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aboutImage > img {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signUpForm {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* form {
+} */
+.nameBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameBox > input {
+  width: fit-content;
+  margin-left: 10px;
+}
+
+.headingTitle {
+  width: 100%;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.aboutMe {
+  width: 100%;
+  margin-top: 30px;
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.aboutinfo {
+  width: 100%;
+  display: flex;
+}
+
+.aboutDescription {
+  width: 100%;
+  padding-top: 90px;
+}
+
+.aboutptag {
+  width: 100%;
+  text-align: justify;
+  font-size: 20px;
+}
+.aboutImage {
+  width: 100%;
+}
+
+.technologies {
+  width: 100%;
+}
+
+.headingtech {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 200;
+  margin-bottom: 0px;
+}
+.headingsub {
+  text-align: center;
+  font: size 30px;
+  font-weight: 900;
+}
+
+.iconsmain {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  margin-left: 0px;
+}
+.icondiv > i {
+  padding: 5px;
+  font-size: 30px;
+  /* flex: 0.5;
+  align-items: flex-start; */
+}
+
+.icondiv span {
+  margin-left: 0px;
+  font-size: 20px;
+}
+
+.icondiv {
+  /* width: 100%; */
+  /* align-items: center;
+  justify-content: center; */
+  padding: 10px 0px 0px 200px;
+  display: flex;
+  font-size: 20px;
+}
+
+.iconify {
+  font-size: 30px;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.containerdiv {
+  border-radius: 5px;
+  background-color: #c4c4c4;
+  padding: 20px;
+}
